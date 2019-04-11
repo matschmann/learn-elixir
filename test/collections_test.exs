@@ -1,6 +1,5 @@
 defmodule CollectionsTest do
   use ExUnit.Case
-  doctest LearnElixir
 
 
   test "combine two lists" do

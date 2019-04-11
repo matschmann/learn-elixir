@@ -4,4 +4,9 @@ defmodule Starter do
   def helloWorld do
     "welt"
   end
+
+  def concatStrings do
+    "Hello" <> " " <> "World"
+  end
+
 end

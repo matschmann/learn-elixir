@@ -9,4 +9,10 @@ defmodule LearnElixirTest do
   test "starter" do
     assert Starter.helloWorld()== "welt"
   end
+
+  test "conaceting strings" do
+    assert Starter.concatStrings()=="Hello World"
+  end
+
+
 end

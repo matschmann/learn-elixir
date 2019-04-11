@@ -1,18 +1,7 @@
-defmodule LearnElixirTest do
+defmodule CollectionsTest do
   use ExUnit.Case
   doctest LearnElixir
 
-  test "greets the world" do
-    assert LearnElixir.hello() == :world
-  end
-
-  test "starter" do
-    assert Starter.helloWorld() == "welt"
-  end
-
-  test "conceting strings" do
-    assert Starter.concatStrings() == "Hello World"
-  end
 
   test "combine two lists" do
     list1 = [1, 2, 3]
